@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+  <header>
+    <div class="title_container">
+      <h2>Simple, traffic-based pricing</h1>
+      <h3>Sign-up for our 30-day trial. No credit card required.</h3> 
+    </div>
+  </header>
+
+<main>
+  <div class="card">
+      <div class="pricing_info">
+          <span class="pageviews"><span class="pages"></span> pageviews</span> 
+          <span class="price"><span class="amount"></span> / month</span>
+          <input class="slide" type="range" name="slide" id="slide" min="0" step="1">
+        <!-- </div> -->
+      </div>      
+      
+      <div class="priceplan"> 
+          <span class="monthly">Monthly Billing</span> 
+          <input class="tgl tgl-light" id="cb1" type="checkbox" name="checkbox"/>
+          <label class="tgl-btn" for="cb1"></label>
+          <span class="yearly">Yearly Billing <span class='discount' content=''></span></span>
+      </div>
+      
+
+      <div class="features">
+        <ul>
+          <li class="feature">Unlimited websites</li>
+          <li class="feature">100% data ownership</li>
+          <li class="feature">Email reports</li>
+        </ul>
+        <input type="button" class="trial-button" name="Start my trial" value="Start my trial"></input>  
+      </div>
+    </div>  
+</main>   
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://helggii.github.io" target="_blank">Helggii</a>.
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
