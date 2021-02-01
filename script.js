@@ -6,12 +6,11 @@ const pricePerMonth = document.querySelector('.amount');
 const slide = document.querySelector('.slide');
 const yearPlanDiscount = document.querySelector('.tgl');
 
-let slideValue = 3;
+let slideValue = 2;
 pages.textcontent = `${pageViews[slideValue]}`;
 pricePerMonth.textContent = `$${prices[slide.value]}.00`;
 
 slide.addEventListener('input', () => {
-	slide.max = pageViews.length - 1;
 	slideValue = slide.value;
 	pages.textContent = `${pageViews[slideValue]}`;
 
