@@ -6,12 +6,14 @@ const pricePerMonth = document.querySelector('.amount');
 const slide = document.querySelector('.slide');
 const yearPlanDiscount = document.querySelector('.tgl');
 
-let slideValue = 0;
+let slideValue = 3;
+pages.textcontent = `${pageViews[slideValue]}`;
+pricePerMonth.textContent = `$${prices[slide.value]}.00`;
 
 slide.addEventListener('input', () => {
 	slide.max = pageViews.length - 1;
 	slideValue = slide.value;
-	pages.textContent = `${pageViews[slide.value]}`;
+	pages.textContent = `${pageViews[slideValue]}`;
 
 	// change the price when moving the thumb across the slide
 	if (yearPlanDiscount.checked) {
