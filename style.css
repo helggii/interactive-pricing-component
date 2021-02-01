@@ -240,7 +240,7 @@ h3,
 /* The whole card thingy */
 .card {
 	background-color: var(--White);
-	padding: 2rem 2.4rem;
+	padding: 2rem 2.4rem 1rem 2.4rem;
 
 	border-radius: 5px;
 	border: 1px solid var(--White);
@@ -286,7 +286,7 @@ h3,
 
 .priceplan {
 	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1.2rem;
 	margin-left: 6rem;
 	display: flex;
 	flex-flow: row wrap;
@@ -299,7 +299,7 @@ h3,
 	color: var(--LightRed);
 	background-color: var(--LightGrayish);
 	border-radius: 15px;
-	padding: 5px;
+	padding: 3px 6px;
 	font-size: 12px;
 	font-weight: 800;
 }
