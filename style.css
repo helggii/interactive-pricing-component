@@ -240,13 +240,13 @@ h3,
 /* The whole card thingy */
 .card {
 	background-color: var(--White);
-	padding: 3rem;
+	padding: 2rem 2.4rem;
 
 	border-radius: 5px;
 	border: 1px solid var(--White);
 	display: flex;
 	flex-direction: column;
-	width: 35rem;
+	width: 33rem;
 	margin: auto;
 }
 
@@ -307,7 +307,7 @@ h3,
 /* List of features and Sign Up button */
 
 .features {
-	padding-top: 2rem;
+	padding-top: 0.8rem;
 	border-top: 2px solid var(--VeryPaleBlue);
 	display: flex;
 	justify-content: space-between;
@@ -321,7 +321,7 @@ li {
 
 .trial-button {
 	cursor: pointer;
-	padding: 1rem 3rem;
+	padding: 0.8rem 2.4rem;
 	background-color: var(--DarkDesaturatedBlue);
 	color: var(--GrayishBlue);
 	border-radius: 4rem;
