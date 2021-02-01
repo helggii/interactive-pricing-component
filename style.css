@@ -198,7 +198,7 @@ input[type=range]::-ms-fill-upper {
 -------------------------------- */
 body {
 	font-family: Manrope, sans-serif;
-	font-size: 15px;
+	font-size: 12px;
 	background-image: url(./images/bg-pattern.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -246,7 +246,7 @@ h3,
 	border: 1px solid var(--White);
 	display: flex;
 	flex-direction: column;
-	width: 650px;
+	width: 35rem;
 	margin: auto;
 }
 
